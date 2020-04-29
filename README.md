@@ -32,7 +32,6 @@ Device Variables apply to all services within the application, and can be applie
 |`DNS1`|`127.0.0.1#5053`|_(optional)_ Tell Pi-hole where to forward DNS requests that aren’t blocked. We’re using the [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) project here but you can specify your own.|
 |`DNS2`|`127.0.0.1#5053`|_(optional)_ Secondary DNS server - see above.|
 |`ServerIP`|`x.x.x.x`|_(recommended)_ Set to your server's LAN IP, used by web block modes and lighttpd bind address.|
-|`DNSCRYPT_SERVER_NAMES`|`['scaleway-fr', 'google', 'yandex', 'cloudflare']`|_(optional)_ Provide a toml array of specific [public resolvers](https://download.dnscrypt.info/dnscrypt-resolvers/v2/public-resolvers.md) if using dnscrypt-proxy.|
 
 ## Usage
 
@@ -47,11 +46,14 @@ If you're having trouble getting the project running, submit an issue or post on
 
 Kyle Harding <https://klutchell.dev>
 
+[Buy me a beer](https://kyles-tip-jar.myshopify.com/cart/31356319498262:1?channel=buy_button)
+
+[Buy me a craft beer](https://kyles-tip-jar.myshopify.com/cart/31356317859862:1?channel=buy_button)
+
 ## Acknowledgments
 
 * <https://github.com/pi-hole/docker-pi-hole/>
 * <https://github.com/DNSCrypt/dnscrypt-proxy>
-* <https://firebog.net/>
 
 ## License
 
